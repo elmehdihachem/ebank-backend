@@ -1,4 +1,7 @@
 package ma.emsi.ebankbackend.repositories;
 
-public interface CustomerRepository {
+import ma.emsi.ebankbackend.entities.Customer;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface CustomerRepository extends JpaRepository<Customer, Long> {
 }

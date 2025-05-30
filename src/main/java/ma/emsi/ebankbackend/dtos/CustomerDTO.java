@@ -1,13 +1,6 @@
-package ma.emsi.ebankbackend.mapers;
+package ma.emsi.ebankbackend.dtos;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
-import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.NoArgsConstructor;
-import ma.emsi.ebankbackend.entities.BankAccount;
-
-import java.util.List;
 
 
 @Data
