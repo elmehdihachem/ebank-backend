@@ -1,7 +1,6 @@
 package ma.emsi.ebankbackend.entities;
 
 import jakarta.persistence.*;
-import jdk.dynalink.Operation;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

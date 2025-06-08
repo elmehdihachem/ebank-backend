@@ -11,7 +11,7 @@ import java.util.Date;
 public class AccountOperationDTO {
     private Long id;
     private Date OpersationDate;
-    private Double aamount;
+    private Double amount;
     private OperationType type;
     private String description;
 }
